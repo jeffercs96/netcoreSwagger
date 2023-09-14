@@ -4,8 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace prjAleSchool.Controllers;
 
 [ApiController]
-[Route("[controller]")]
-[Authorize]
+[Route("api/WeatherForecast")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]

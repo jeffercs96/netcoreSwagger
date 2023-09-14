@@ -16,7 +16,7 @@ namespace prjAleSchool.Controllers
         [HttpGet(Name = "GetWeatherForecastss")]
         public IActionResult Get()
         {
-            return Ok(new { message = " hola" });
+            return Ok(new { message = "hola" });
             }
     }
 }
